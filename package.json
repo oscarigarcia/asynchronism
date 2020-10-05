@@ -4,7 +4,8 @@
   "description": "asynchronism of Javascript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "callback": "node src/callback/index.js",
+    "challenge": "node src/callback/challenge.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/oscary25/asynchronism/issues"
   },
-  "homepage": "https://github.com/oscary25/asynchronism#readme"
+  "homepage": "https://github.com/oscary25/asynchronism#readme",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }
