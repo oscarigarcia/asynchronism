@@ -16,7 +16,7 @@ const somethingWillHappenSecond = () => {
   return new Promise((resolve, reject) => {
     if (true) {
       setTimeout(() => {
-        resolve("el 2do es este");
+        resolve("el 2do es est");
       }, 200);
     } else {
       const error = new Error("FALLO!!");
